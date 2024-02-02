@@ -1,0 +1,35 @@
+/* style.css */
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure full viewport height */
+}
+
+#quote-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 80%; /* Adjusted max-width for responsiveness */
+}
+
+#quote-text {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#author {
+    font-style: italic;
+    color: #555;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+    #quote-container {
+        max-width: 90%; /* Adjusted max-width for smaller screens */
+    }
+}
