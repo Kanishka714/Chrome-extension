@@ -1,9 +1,11 @@
 body {
-    width: 350px; /* Set the width to 3 inches */
-    height: 192px; /* Set the height to 2 inches */
+    width: 450px; /* Set the width to 3 inches */
+    height: 292px; /* Set the height to 2 inches */
     border-radius: 15px;
     margin: 0;
-    padding: 0;
+    padding: 15;
+    background-color: palegreen;
+    border-radius: 15;
 }
 
 #quote-container {
@@ -14,10 +16,11 @@ body {
 
 
 #quote-text {
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 #author {
     font-style: italic;
     color: #555;
+    font-size: 1.5em;
 }
