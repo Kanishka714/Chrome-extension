@@ -25,3 +25,6 @@ function fetchQuote() {
 
 // Fetch a quote when the page loads
 window.addEventListener('load', fetchQuote);
+
+// Add event listener to the "new quote" button
+document.getElementById('new-quote').addEventListener('click', fetchQuote);
